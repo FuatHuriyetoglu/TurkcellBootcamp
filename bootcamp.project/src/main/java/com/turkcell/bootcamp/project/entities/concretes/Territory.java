@@ -17,8 +17,7 @@ import java.util.List;
 public class Territory {
     @Id
     @Column(name= "territory_id")
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private char territoryId;
+    private String territoryId;
 
     @Column(name= "territory_description")
     private String territoryDescription;

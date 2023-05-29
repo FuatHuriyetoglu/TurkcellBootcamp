@@ -19,7 +19,6 @@ public class Customer {
 
     @Column(name = "customer_id")
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private String customerId;
 
     @Column(name = "company_name")

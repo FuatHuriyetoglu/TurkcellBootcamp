@@ -18,7 +18,6 @@ public class CustomerDemographics {
 
     @Id
     @Column(name = "customer_type_id")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String customerTypeId;
 
     @Column(name = "customer_desc")
